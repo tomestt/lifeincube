@@ -9,6 +9,7 @@ body {
 
 h1 {
     font-size: 65px;
+    margin: 5px 10px;
 }
 
 label {
@@ -16,15 +17,16 @@ label {
     /*font: .9rem 'Fira Sans', sans-serif;*/
     color: white;
     font-size: 20px;
-
 }
 
 input[type='submit'],
 label {
     margin-top: 1rem;
+    border-radius: 10px;
+    border-color: gray;
 } 
 
-.fyp {
+a {
     font-size: 20px;
     text-decoration: none;
 }
@@ -41,5 +43,24 @@ a:focus {
     display: inline-block;
     color: white;
     border-radius: 10px;
-    
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding: 3px 5%;
 }
+
+.createacc {
+    text-align: center;
+    border: solid #da9391;
+    background: #da9391;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    padding: 3px 5%;
+}
+
+
