@@ -1,9 +1,45 @@
+body {
+    background-color: #94D1DB;
+    width: 960px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1 {
+    font-size: 65px;
+}
+
 label {
     display: block;
-    font: .9rem 'Fira Sans', sans-serif;
+    /*font: .9rem 'Fira Sans', sans-serif;*/
+    color: white;
+    font-size: 20px;
+
 }
 
 input[type='submit'],
 label {
     margin-top: 1rem;
+} 
+
+.fyp {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.menu {
+    text-align: center;
+    border: solid #da9391;
+    background: #da9391;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    
 }
