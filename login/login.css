@@ -21,7 +21,7 @@ label {
 
 input[type='submit'],
 label {
-    margin-top: 1rem; 
+    margin-top: 1mm; 
     border-radius: 10px;
     border-color: gray;
 } 
