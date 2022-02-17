@@ -1,0 +1,62 @@
+body {
+    background-color: #94D1DB;
+    width: 960px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 10px 20px 5px 20px;
+    
+}
+
+label {
+    display: block;
+    /*font: .9rem 'Fira Sans', sans-serif;*/
+    color: white;
+    font-size: 20px;
+    overflow:auto;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1mm; 
+    border-radius: 10px;
+    border-color: gray;
+    overflow: visible;
+} 
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.menu {
+    text-align: center;
+    border: solid #da9391;
+    background: #da9391;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 5px 5%;
+}
+
+#birthday {
+    width: 5px 2px;
+}
+
+#reg {
+    cursor: pointer;
+}
