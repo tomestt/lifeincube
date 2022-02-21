@@ -1,71 +1,42 @@
 body {
     background-color: #94D1DB;
-    width: 960px;
-    margin: 0 auto;
-    -webkit-font-smoothing: antialiased;
-    padding: 0 20px;
     font-family: 'Patrick Hand', cursive;
+    -webkit-font-smoothing: antialiased;
 }
 
-:root {
-    --primary-color: #185ee0;
-    --secondary-color: #fff;
+html {
+	margin:0;
 }
 
-.container {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
+header {
+	background: white;
+	padding: 30px;
+	margin: -8px;
+}
+.menu {
+	margin: 0;
+	padding-left: 0; /* ul elementy maju same od seba lavy padding, zrusime */
+	list-style: none; /* toto zrusi tie bodky v zoznamoch */
+	text-align: center;
 }
 
-.tabs {
-    display: flex;
-    position: relative;
-    background-color: var(--secondary-color);
-    padding: 0;
-    margin-top: -575px;
-}
+	.menu li,
+	.menu a {
+		display: inline-block; /* aby boli vedla seba */
+		text-decoration: none;
+		font-size: 15px;
+		color: grey;
+		font-weight: 600;
+	
+		background: white;
+	}
 
-input[type="radio"] {
-    display: none;
-}
-
-.tab {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 54px;
-    width: 273.2px;
-    font-size: 1.25rem;
-    font-weight: 500; 
-    cursor: pointer;
-}
-
-@media (max-width: 960px) {
-    .tabs {
-        transform: scale(0.6);
-    }
-}
-
-a {
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
-
+	.menu a {
+		margin: 0 5px;
+		padding: 10px;
+		}
 a:hover,
 a:focus {
     text-decoration: none;
-}
-
-.tab:hover,
-.tab:focus {
     background-color: #da9391;
 }
