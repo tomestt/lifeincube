@@ -9,7 +9,7 @@ body {
 
 :root {
     --primary-color: #185ee0;
-    --secondary-color: #da9391;
+    --secondary-color: #fff;
 }
 
 .container {
@@ -29,9 +29,8 @@ body {
     display: flex;
     position: relative;
     background-color: var(--secondary-color);
-    padding: 0.75rem;
-    border-radius: 99px;
-    margin-top: -550px;
+    padding: 0;
+    margin-top: -575px;
 }
 
 input[type="radio"] {
@@ -43,10 +42,9 @@ input[type="radio"] {
     align-items: center;
     justify-content: center;
     height: 54px;
-    width: 200px;
+    width: 273.2px;
     font-size: 1.25rem;
-    font-weight: 500;
-    border-radius: 99px; 
+    font-weight: 500; 
     cursor: pointer;
 }
 
@@ -59,10 +57,15 @@ input[type="radio"] {
 a {
     font-size: 20px;
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
+}
+
+.tab:hover,
+.tab:focus {
+    background-color: #da9391;
 }
