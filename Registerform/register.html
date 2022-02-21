@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="register.css">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <title>Recorverypassword</title>
+    <title>Register Formular</title>
 </head>
 <body> 
 
@@ -14,19 +14,24 @@
 
         <h1 class="login">Register to LifeInCube</h1>
 
+                <label for="name"></label>
+                <input type="name" id="name" name="name" placeholder="Full name">
+
                 <label for="mail"></label>
-                <input type="email" id="mail" name="email" placeholder="Your email address"
-       minlength="8" required>
+                <input type="email" id="mail" name="email" placeholder="Your email address">
 
                 <label for="pass"></label>
                 <input type="password" id="pass" name="password" placeholder="New password (8 characters minimum)"
-               minlength="8" required>
+                    minlength="8" required>
     
                 <label for="pass"></label>
                 <input type="password" id="pass" name="password" placeholder="Confirm new password (8 characters minimum)"
-               minlength="8" required> <br>
-               
-               <input type="submit" id="submit" value="confirm">
+                    minlength="8" required> <br>
+                
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+
+               <input type="submit" id="reg" value="Register">
     </div>
     
    
